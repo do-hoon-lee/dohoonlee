@@ -1,0 +1,12 @@
+<html>
+<body>
+
+<h1>Do Hoon Lee</h1>
+<p>Expectation</p>
+<img src="Jang Won Young.jpeg" alt="Jang Won Young" style="width:400px;height:600px;">
+
+<p>Reality</p>
+<img src="Do Hoon.jpg" alt="Do Hoon" style="width:400px;height600:px;">
+
+</body>
+</html>
