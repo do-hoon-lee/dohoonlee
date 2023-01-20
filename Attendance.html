@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+    <style>
+    .myDiv {
+  border: 5px outset red;
+  background-color: white;    
+  text-align: center;
+   font-family: sans-serif;
+    font-size: x-large;
+    color: black;
+} 
+body { 
+    background: black;
+    color: white;
+    } 
+    </style>
+<div class="myDiv">
+    <h1 style="text-align: center;"> Check In </h1>
+</div>
+<br><br>
+
+<style> 
+ .name{
+font-size: x-large;
+text-align: center;
+
+}
+</style>
+<div class="name">
+    <form method="POST" action="https://script.google.com/macros/s/AKfycbzow1A8iawvOC-zIP6WARHaXt2o4by_KPEYfRHixknva0-4cJKhdiIObiND4qDiVJds2w/exec">
+<label for="firstname">First Name:</label>
+<input type="text" id="firstname" name="firstname" rows="1" cols="20" style="border: 3px outset crimson">
+<label for="lastname">Last Name:</label>
+<input type="text" id="lastname" name="lastname" rows="1" cols="20"style="border: 3px outset crimson">
+<br>
+<input type="datetime-local" id="datetime"/> 
+    <script>
+    function myFunction() {
+    document.getElementById('datetime').value= Date();
+    }
+    </script>
+    <br>
+    <button id="submit" name="Submit" onclick="alert('Submitted')"onclick="saveFile()">Submit</button>
+</form>
+</div>
+<body onload="myFunction()">
+<script>
+        function saveFile () {
+        
+        
+        }
+</script>
+<style> 
+body {
+text-align: center;
+
+}
+
+</style>
+<br>
+
+    <br>
+    <br>
+
+</body>
+</html>
+ 
